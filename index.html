@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Heróis</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/post.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>Cadastro de animes</h1>
+        <small>Preencha os dados abaixo!!</small>
+    </header>
+    <main>
+        <section id="intro">
+            <h2>Novo anime</h2>
+            <form id="form-anime">
+                <label for="title">Nome do Anime:</label>
+                <input id="title" name="title" type="text" minlength="3" maxlength="120" required />
+
+                <label for="genero">Gênero:</label>
+                <input id="genero" name="genero" type="text" required />
+
+                <label for="numero_episodios">Episódios:</label>
+                <input id="numero_episodios" name="numero_episodios" type="number" required />
+
+                <label for="ano_lancamento">Ano Lançamento:</label>
+                <input id="ano_lancamento" name="ano_lancamento" type="number" required />
+
+                <label for="estudio">Estúdio:</label>
+                <input id="estudio" name="estudio" type="text" required />
+
+                <label for="imageUrl">URL da imagem (opcional):</label>
+                <input id="imageUrl" name="imageUrl" type="url" />
+
+                <button type="submit">Cadastrar anime</button>
+            </form>
+            <p id="resposta"></p>
+        </section>
+    </main>
+    <footer>
+        <p>Prática de formulários HTML.</p>
+    </footer>
+</body>
+
+</html>
