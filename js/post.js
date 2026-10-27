@@ -10,7 +10,7 @@ const resposta = document.querySelector("#resposta");
 const apiKey = "cv_AWH-r6yLxYXxcCT1Rpp2eeVQktpSaqWUPzjRYZh5LoN_MXbZp44RptRVQxscOI2c";
 
 // Tem que falar o link (endpoint)
-const apiUrl = "https://api-ds.codeverse.dev.br/api/anime";
+const apiUrl = "https://api-ds.codeverse.dev.br/api/animes";
 
 // 3. Capturar o evento de click do form
 
